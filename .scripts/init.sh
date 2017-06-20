@@ -1,1 +1,2 @@
-repo init -u https://android.googlesource.com/platform/manifest
+echo "y" | repo init -u https://android.googlesource.com/platform/manifest
+

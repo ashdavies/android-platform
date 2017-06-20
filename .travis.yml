@@ -1,10 +1,10 @@
-language: java
-install: true
+language: generic
 sudo: false
 
-before_script:
+script:
   - ./.scripts/repo.sh
   - ./.scripts/git.sh
-
-script:
   - ./.scripts/init.sh
+
+notifications:
+  email: false
