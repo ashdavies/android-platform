@@ -1,0 +1,10 @@
+language: java
+install: true
+sudo: false
+
+before_script:
+  - ./.scripts/repo.sh
+  - ./.scripts/git.sh
+
+script:
+  - ./.scripts/init.sh
